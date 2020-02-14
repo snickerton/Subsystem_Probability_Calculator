@@ -18,6 +18,6 @@ class tester(unittest.TestCase):
         self.assertEqual(main.calcSystemProb('(1|2)',[6,2]),main.TonyOr(6,2))
     def test_Lab(self):
         self.assertEqual(round(main.calcSystemProb('((2&4)|1)&((3&8)|(6&7)|(5))',[.95]*8),6), .994652)
-
+        self.assertEqual(round(main.calcSystemProb('((1|2|3)&(6|(4&5))&(7|(8&(11|9|10))))|12', [.95]*12),6),.999625)
 if __name__ == '__main__':
     unittest.main()

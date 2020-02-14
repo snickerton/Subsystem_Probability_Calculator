@@ -1,1 +1,10 @@
-[]
+[
+  "tester.py::tester::test_Hard",
+  "tester.py::tester::test_Lab",
+  "tester.py::tester::test_LabHard",
+  "tester.py::tester::test_SimpleAnd",
+  "tester.py::tester::test_SimpleFunctionAnd",
+  "tester.py::tester::test_SimpleFunctionOr",
+  "tester.py::tester::test_SimpleOr",
+  "tester.py::tester::test_compoundOr"
+]
